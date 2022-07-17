@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+
+
+
+		body {
+			background-color:white;
+			margin: 20%;
+		}
+         .box{
+		    text-align:center;
+		    width:120%;
+		    height:100%;
+		    background-color:white;
+		    
+
+		#title {
+			text-align: center;
+			text-shadow: 5px 5px 10px white;
+			font-size: 7vh;
+		}
+		.column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+        .row::after {
+           content: "";
+           clear: both;
+           display: table;
+        }
+
+		#caption {
+			font-size: 17px;
+			font-family: Gill Sans;
+			color: black;
+		}
+
+
+		div#tribute-data {
+			background-color: rgb(46, 139, 87, 0.25);
+			box-shadow: 20px 20px 20px #98FB98;
+			font-family: Georgia;
+			padding: 25px 25px;
+			margin: 11px;
+			margin-top: 50px;
+		}
+
+		h1.title-APJ {
+			font-size: 35px;
+			color: white;
+			text-align: center;
+			text-shadow: 5px 5px 10px black;
+		}
+
+
+		#tribute-link {
+			text-decoration: none;
+			color:blue;
+		}
+	</style>
+</head>
+
+<body>
+	<main id="main">
+        <h1 class="box">*** A.P.J. Abdul Kalam ***</h1>
+	
+		<div class="row">
+             <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam">
+			 <div class="column">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/A._P._J._Abdul_Kalam.jpg/220px-A._P._J._Abdul_Kalam.jpg"  id="image"
+				alt="Error Loading Image" style="width:100%">
+			 </div>
+				<div class="column">
+				<img src="https://tse2.mm.bing.net/th?id=OIP.wj-gv-tel2vT1YQZie678gHaFJ&pid=Api&P=0&w=242&h=168" id="image" alt="error loading image" style="width:100%">
+				</div>
+				</a>
+		</div>	
+			<h4 style="color:#0000FF">
+				Great Indian scientist and
+				politician who played a leading
+				role in the development of India’s
+				missile and nuclear weapons
+				programs.
+			</h4>
+		
+
+		<div id="tribute-data">
+
+
+			<h1 style="color:green">
+				About the Legend
+			</h1>
+
+
+
+<p>
+				 1.A.P.J. Abdul Kalam, in full
+				Avul Pakir Jainulabdeen Abdul Kalam,
+				was born on October 15, 1931, in
+				Rameswaram, Tamil Nadu, India.<br><br>
+				2. He served as the 11th President
+				of India from 2002 to 2007.<br><br>
+				3. Kalam earned a degree in
+				aeronautical engineering from the
+				Madras Institute of Technology and in
+				1958 joined the Defence Research and
+				Development Organisation (DRDO).<br><br>
+				4. In 1969, he moved to the Indian
+				Space Research Organisation, where he
+				was project director of the SLV-III, the
+				first satellite launch vehicle that was
+				both designed and produced in India.
+				<br><br> 5. Rejoining DRDO in 1982,
+				Kalam planned the program that produced
+				a number of successful missiles, which
+				helped earn him the nickname <strong>
+				“Missile Man.”</strong>
+				<br><br> 6. Among those successes
+				was Agni, India’s first intermediate-range
+				ballistic missile, which incorporated
+				aspects of the SLV-III and was launched
+				in 1989.
+				<br><br> 7. He also played a
+				pivotal organisational, technical,
+				and political role in India's Pokhran-II
+				nuclear tests in 1998, the first since
+				the original nuclear test by India in 1974.
+				<br><br> 8. His prominent role in
+				the country’s 1998 nuclear weapons tests
+				solidified India as a nuclear power and
+				established Kalam as a national hero,
+				although the tests caused great concern
+				in the international community.
+				<br><br> 9. In 1997, Kalam received
+				India's highest civilian honour, the
+				Bharat Ratna, for his contribution to
+				the scientific research and modernisation
+				of defence technology in India.
+				<br><br><br>
+			</p>
+		</div>
+		<br>
+		 For more information,
+		check out
+		<a id="tribute-link" href="#">
+			<b> 
+			<small>www.<a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam">A.P.J Abdulkalam.</a></a></small>
+	</main>
+</body>
+
+</html>
